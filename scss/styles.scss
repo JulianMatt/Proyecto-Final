@@ -1,0 +1,121 @@
+@import './variables';
+@import './layout/footer', './layout/header', './layout/mq';
+
+/***Página: Inicio****/
+
+
+.h2index {
+    color: $colorRojoClaro;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.clienteindex {
+    font-size: 1.8rem;
+    color: $colorRed;
+}
+
+.aindex:hover {
+    color: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url(/img/Valorant1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+p {
+    color: $colorBlanco;
+    font-size: 1.5rem;
+}
+
+ul {
+    font-family: $fontBebasNeue;
+    font-size: 1.3rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 2rem;
+
+    li a {
+        text-decoration: none;
+        color: $colorBlanco;
+    }
+}
+
+a:hover {
+    color: #000000;
+    background-color: $colorBlanco;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+}
+
+main {
+    font-family: $fontBebasNeue;
+    padding: 3rem;
+}
+
+
+/* Navbar */
+
+.navbar-custom .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-custom .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/***Página: Roles***/
+
+.divcontent {
+    color: $colorRed;
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-family: $fontBebasNeue;
+    font-size: 1.8rem;
+    color: $colorRed;
+}
+
+h2:hover {
+    font-size: 1.9rem;
+    color: $colorBlanco;
+}
+
+/***Mapas***/
+
+.mapinfo {
+    font-size: 1rem;
+    color: $colorBlanco;
+}
+
+h3 {
+    color: $colorRojoClaro;
+    font-size: 1.8rem;
+}
+
+.divcontent {
+    font-size: 1.8rem;
+}
+
+img {
+    width: 17rem;
+    padding: 1rem;
+
+    img:hover {
+        width: 20rem;
+    }
+}

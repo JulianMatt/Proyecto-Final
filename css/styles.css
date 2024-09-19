@@ -1,169 +1,163 @@
-/***Página: Inicio****/
+@charset "UTF-8";
+/***Variables***/
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
 
 h1 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 4.4rem;
-    padding-left: 2.3rem;
-    margin-top: 1rem;
-    text-align: center;
-    color: #fff;
-}
-
-.h2index {
-    color: #ff7474;
-    font-size: 2rem;
-    padding-top: 3rem;
-}
-
-.clienteindex {
-    font-size: 1.8rem;
-    color: #b80101;
-}
-
-.aindex:hover {
-    color: #000000;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    background-image: url(/img/Valorant1.jpg);
-    background-size:cover;
-    background-position: center;
-}
-
-p {
-    color: #fff;
-    font-size: 1.5rem;
-}
-
-ul {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 1.3rem;
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    text-decoration: none;
-    background-color: #000000;
-    padding: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4.4rem;
+  padding-left: 2.3rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
 }
 
 header {
-    background-color: #660000;
-    padding: 0.1rem;
-    border: 0;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-a:hover {
-    color: #000000;
-    background-color: #fff;
-    padding: 0.5rem;
-    border-radius: 1.5rem;
-}
-
-main {
-    font-family: "Bebas Neue", sans-serif;
-    padding: 3rem;
-}
-
-footer {
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-/* Navbar */
-
-.navbar-custom .navbar-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.navbar-custom .nav-item {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-/***Página: Roles***/
-
-.divcontent {
-    color: #b80101;
-    font-size: 1.3rem;
-}
-
-h2 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 1.8rem;
-    color: #b80101;
-}
-
-h2:hover {
-    font-size: 1.9rem;
-    color: #fff;
-}
-
-/***Mapas***/
-
-.mapinfo {
-    font-size: 1rem;
-    color: #fff;
-}
-
-h3 {
-    color: #ff7474;
-    font-size: 1.8rem;
-}
-
-.divcontent {
-    font-size: 1.8rem;
-}
-
-img {
-    width: 17rem;
-    padding: 1rem;
-}
-
-img:hover {
-    width: 20rem;
+  background-color: #660000;
+  padding: 0.1rem;
+  border: 0;
 }
 
 @media only screen and (min-width: 700px) {
-    .contenedorrol {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
-
-    section {
-        text-align: center;
-    }
-
-    h1 {
-        padding-top: 3rem;
-    }
+  .contenedorrol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  section {
+    text-align: center;
+  }
+  h1 {
+    padding-top: 3rem;
+  }
 }
-
 @media only screen and (min-width: 992px) {
-    .contenedorindex {
-        display: flex;
-        grid-template-columns: repeat(2, 1px);
-        text-align: center;
-    }
-    .mapinfo {
-        font-size: 1.5rem;
-        color: #fff;
-    }
-    h2 {
-        font-size: 2.2rem;
-    }
+  .contenedorindex {
+    display: flex;
+    grid-template-columns: repeat(2, 1px);
+    text-align: center;
+  }
+  .mapinfo {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
 }
+/***Página: Inicio****/
+.h2index {
+  color: #ff7474;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+.clienteindex {
+  font-size: 1.8rem;
+  color: #b80101;
+}
+
+.aindex:hover {
+  color: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-image: url(/img/Valorant1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+ul {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.3rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  text-decoration: none;
+  background-color: #000000;
+  padding: 2rem;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #000000;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+}
+
+main {
+  font-family: "Bebas Neue", sans-serif;
+  padding: 3rem;
+}
+
+/* Navbar */
+.navbar-custom .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-custom .nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/***Página: Roles***/
+.divcontent {
+  color: #b80101;
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.8rem;
+  color: #b80101;
+}
+
+h2:hover {
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+/***Mapas***/
+.mapinfo {
+  font-size: 1rem;
+  color: #fff;
+}
+
+h3 {
+  color: #ff7474;
+  font-size: 1.8rem;
+}
+
+.divcontent {
+  font-size: 1.8rem;
+}
+
+img {
+  width: 17rem;
+  padding: 1rem;
+}
+img img:hover {
+  width: 20rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

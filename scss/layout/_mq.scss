@@ -1,0 +1,30 @@
+@media only screen and (min-width: 700px) {
+    .contenedorrol {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    h1 {
+        padding-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .contenedorindex {
+        display: flex;
+        grid-template-columns: repeat(2, 1px);
+        text-align: center;
+    }
+    .mapinfo {
+        font-size: 1.5rem;
+        color: $colorBlanco;
+    }
+    h2 {
+        font-size: 2.2rem;
+    }
+}
