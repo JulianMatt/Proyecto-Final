@@ -1,9 +1,4 @@
 @media only screen and (min-width: 700px) {
-    .contenedorrol {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
 
     section {
         text-align: center;
@@ -25,6 +20,33 @@
         color: $colorBlanco;
     }
     h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .h2Rol {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedorrol {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .divcontent {
+        padding: 15px;
+    }
+
+    .rolP {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .h2Rol {
         font-size: 2.2rem;
     }
 }

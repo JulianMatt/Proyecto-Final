@@ -1,0 +1,44 @@
+/*CARDS MAPS*/
+
+.h2map{
+  color: #fff;
+}
+
+
+.cards-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px;
+    transition: transform 0.2s;
+    background-color: rgba(116, 4, 4, 0.377);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardBody {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .cardImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }

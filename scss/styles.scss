@@ -1,8 +1,7 @@
 @import './variables';
-@import './layout/footer', './layout/header', './layout/mq';
+@import './layout/footer', './layout/header', './layout/mq', './layout/cardsMaps';
 
 /***Página: Inicio****/
-
 
 .h2index {
     color: $colorRojoClaro;
@@ -51,11 +50,13 @@ ul {
     }
 }
 
-a:hover {
-    color: #000000;
-    background-color: $colorBlanco;
-    padding: 0.5rem;
-    border-radius: 1.5rem;
+a {
+    text-decoration: none;
+    color: $colorRed;
+
+    &:hover {
+        color: rgb(211, 24, 24);
+    }
 }
 
 main {
@@ -65,6 +66,11 @@ main {
 
 
 /* Navbar */
+
+.navbar-custom{
+    padding: 0;
+    padding-left: 0;
+}
 
 .navbar-custom .navbar-nav {
     display: flex;
@@ -77,23 +83,11 @@ main {
     margin-right: 15px;
 }
 
-/***Página: Roles***/
-
-.divcontent {
-    color: $colorRed;
-    font-size: 1.3rem;
+.container-fluid {
+    display: block !important;
+    padding: 0;
 }
 
-h2 {
-    font-family: $fontBebasNeue;
-    font-size: 1.8rem;
-    color: $colorRed;
-}
-
-h2:hover {
-    font-size: 1.9rem;
-    color: $colorBlanco;
-}
 
 /***Mapas***/
 
@@ -117,5 +111,64 @@ img {
 
     img:hover {
         width: 20rem;
+    }
+}
+
+/* CARDS ROLES */
+
+.contenedorrol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    padding: 20px;
+}
+
+.divcontent {
+    background-color: #ffffffbb;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.divcontent:hover {
+    transform: translateY(-10px);
+}
+
+.rolP {
+    padding-top: 2rem;
+    color: #383838;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.h2Rol {
+    padding-top: 1.2rem;
+    font-size: 2.7rem;
+}
+
+@media screen and (max-width: 480px) {
+    .h2Rol {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedorrol {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .divcontent {
+        padding: 15px;
+    }
+
+    .rolP {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .h2Rol {
+        font-size: 2.2rem;
     }
 }
